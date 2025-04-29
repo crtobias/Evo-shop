@@ -1,0 +1,98 @@
+[
+    {
+        "nombre": "Camiseta Básica",
+        "precio": 19.99,
+        "categoria": "Camisetas",
+        "colores": [
+            "#ff5733",
+            "#33c1ff",
+            "#28a745"
+        ],
+        "stock": 15,
+        "imagen": "https://i.pinimg.com/736x/ca/f8/e8/caf8e8fafdd084320d13c48ddd16051a.jpg"
+    },
+    {
+        "nombre": "Pantalón Slim Fit",
+        "precio": 49.99,
+        "categoria": "Pantalones",
+        "colores": [
+            "#333333",
+            "#b0bec5",
+            "#8e44ad"
+        ],
+        "stock": 5,
+        "imagen": "https://i.pinimg.com/236x/17/dd/93/17dd934b34db3765643c626a3b5db17c.jpg"
+    },
+    {
+        "nombre": "Zapatillas Running",
+        "precio": 89.99,
+        "categoria": "Zapatillas",
+        "colores": [
+            "#d32f2f",
+            "#1976d2",
+            "#388e3c"
+        ],
+        "stock": 12,
+        "imagen": "https://i.pinimg.com/236x/c0/fa/75/c0fa75de966f36a3b4195f505997e044.jpg"
+    },
+    {
+        "nombre": "Chaqueta Impermeable",
+        "precio": 129.99,
+        "categoria": "Abrigos",
+        "colores": [
+            "#607d8b",
+            "#455a64",
+            "#f44336"
+        ],
+        "stock": 8,
+        "imagen": "https://i.pinimg.com/736x/39/4c/26/394c26057c1f8d508c9ca316a5d7cdce.jpg"
+    },
+    {
+        "nombre": "Camiseta Básica",
+        "precio": 19.99,
+        "categoria": "Camisetas",
+        "colores": [
+            "#ff5733",
+            "#33c1ff",
+            "#28a745"
+        ],
+        "stock": 15,
+        "imagen": "https://i.pinimg.com/736x/ca/f8/e8/caf8e8fafdd084320d13c48ddd16051a.jpg"
+    },
+    {
+        "nombre": "Pantalón Slim Fit",
+        "precio": 49.99,
+        "categoria": "Pantalones",
+        "colores": [
+            "#333333",
+            "#b0bec5",
+            "#8e44ad"
+        ],
+        "stock": 5,
+        "imagen": "https://i.pinimg.com/236x/17/dd/93/17dd934b34db3765643c626a3b5db17c.jpg"
+    },
+    {
+        "nombre": "Zapatillas Running",
+        "precio": 89.99,
+        "categoria": "Zapatillas",
+        "colores": [
+            "#d32f2f",
+            "#1976d2",
+            "#388e3c"
+        ],
+        "stock": 12,
+        "imagen": "https://i.pinimg.com/236x/c0/fa/75/c0fa75de966f36a3b4195f505997e044.jpg"
+    },
+    {
+        "nombre": "Chaqueta Impermeable",
+        "precio": 129.99,
+        "categoria": "Abrigos",
+        "colores": [
+            "#607d8b",
+            "#455a64",
+            "#f44336"
+        ],
+        "stock": 8,
+        "imagen": "https://i.pinimg.com/736x/39/4c/26/394c26057c1f8d508c9ca316a5d7cdce.jpg"
+    }
+]
