@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProductCard({ nombre, precio, categoria, colores, stock, imagen }) {
   return (
-    <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden max-w-4xl mx-auto h-[300px]">
+    <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden max-w-4xl mx-auto h-[60vh]">
       
       {/* Imagen a la izquierda */}
       <div className="relative w-full md:w-1/2 h-64 md:h-auto">
@@ -26,7 +26,7 @@ export default function ProductCard({ nombre, precio, categoria, colores, stock,
         <div className="mt-4">
           <p className="text-xl font-bold text-black">${precio}</p>
         </div>
-
+        <p className="text-sm text-gray-500">colores:</p>
         {/* Colores */}
         <div className="flex items-center gap-2 mt-4">
           {colores.map((color, index) => (

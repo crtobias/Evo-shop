@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: 	#F9F9F6;
+  --background: #F9F9F6;
   --foreground: #171717;
 }
 
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: 	#F9F9F6;
+    --background: #F9F9F6;
     --foreground: #171717;
   }
 }
@@ -23,4 +23,33 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden; /* Solo ocultar scroll horizontal, NO el vertical */
+}
+
+/* Scrollbars muy finitas y elegantes */
+/* Para Chrome, Safari y Edge */
+::-webkit-scrollbar {
+  width: 4px;        /* ancho de scroll vertical */
+  height: 4px;       /* ancho de scroll horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Fondo del track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Color del thumb (la "barrita") */
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;       /* Hacer el scrollbar fino */
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* Color de thumb y track */
+}
+
+/* Opcional: si querés que sea todavía MÁS invisible */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
