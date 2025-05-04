@@ -3,7 +3,7 @@ import buzo1 from "../assets/buzo2.png"
 
 const MainContent = () => {
     return(
-        <div className="flex flex-col-reverse md:flex-row justify-center items-center w-full max-w-7xl gap-8 mt-15">
+        <div className=" flex flex-col-reverse md:flex-row justify-center items-center w-full max-w-7xl gap-8 mt-25">
         
         {/* Texto */}
         <div className="flex flex-col items-center text-center max-w-xl px-6 py-8 text-neutral-800 font-light leading-relaxed space-y-6">

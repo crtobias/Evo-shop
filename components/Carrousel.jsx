@@ -33,7 +33,7 @@ export default function Carrousel() {
 
   return (
     <div className="relative w-full max-w-[90vw]  mx-auto flex flex-col gap-16 items-center justify-center overflow-hidden h-[90vh]">
-      <h1 className="text-4xl font-semibold">Nuestras Prendas Destacadas</h1>
+      <h1 className="text-4xl font-semibold">Novedades en Oferta</h1>
       {/* Botón Izquierdo */}
       <button
         onClick={handlePrev}
