@@ -4,13 +4,12 @@ const ProductCard = ({ marca, precio, foto, nombre, disponibilidad }) => {
   return (
     <div className="w-64 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 bg-white">
       <div className="relative w-full h-72">
-        <Image
+        <img
           src={foto}
           alt={nombre}
-          fill
-          className="object-cover"
-          sizes="(max-width: 768px) 100vw, 25vw"
+          className="object-cover w-full h-full"
         />
+
       </div>
       <div className="p-4">
         <div className="text-sm text-gray-500 mb-2 flex items-center gap-1">

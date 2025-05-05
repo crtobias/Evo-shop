@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div className="bg-gray-100 p-1 rounded-lg border border-gray-400 w-2/4 text-center hover:bg-gray-200">
                     barra
                 </div>
-                <Link href="/main">
+                <Link href="/main/login">
                     <button className="p-1 border rounded-lg pr-4 pl-4 hover:bg-gray-200">Login</button>
                 </Link>
             </div>

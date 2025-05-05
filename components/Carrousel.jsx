@@ -67,11 +67,11 @@ export default function Carrousel() {
                 <ProductCard
                   nombre={product.nombre}
                   precio={product.precio}
-                  categoria={product.categoria}
-                  colores={product.colores}
-                  stock={product.stock}
-                  imagen={product.imagen}
+                  foto={product.imagen}
+                  marca={product.categoria}
+                  disponibilidad={`Stock: ${product.stock}`}
                 />
+
               </motion.div>
             );
           })}
